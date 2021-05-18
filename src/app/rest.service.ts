@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-//const baseTable = "appHAqt4e9lIjz6BB/Table%201";
-const baseTable="appzVwOsi02Xs0lV4/Property"
+const baseTable="appzVwOsi02Xs0lV4/Property";
 @Injectable()
 export class RestService {
 
@@ -22,6 +21,3 @@ export class RestService {
     return this.http.delete("https://api.airtable.com/v0/" + baseTable + "/" + id);
   }
 }
-
-
-//keyVYKBvkKeMDBwSu
